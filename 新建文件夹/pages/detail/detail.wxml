@@ -1,0 +1,24 @@
+<view class="container">
+<view class="ar_coverpath">
+    <image src="../../images/banner_02.png" mode="aspectFill"></image>
+</view>
+<view class="ar_cont">
+    <text class="ar_cont_h1">新手大礼包</text>
+    <text class="ar_cont_price">价格：¥198  </text>
+    <text>   
+风、火、山、林武将礼包*1，多多益善1天*1，手气卡*10，会员卡31天*1
+风、火、山、林武将礼包：打开可随机获得一个武将31天使用权限。
+    </text>
+    <view class="ar_line"></view>
+    <text class="ar_cont_h1">详情描述</text>
+    <text>
+    一、风、火、林、山武将免费用
+    二、多多益善卡助您加速升级
+    三、手气卡助你牌局顺利
+    四、会员卡展现尊贵身份
+    备注、奖励将在预约后后1个工作日内发放
+    </text>
+    <button class="ar_book" bindtap="bookTap">立即预约</button>
+</view>
+
+</view>

@@ -1,0 +1,38 @@
+<view class="container">
+<view class="ar_coverpath">
+    <image src="../../images/skilledt_banner.png" mode="aspectFill"></image>
+</view>
+<view class="ar_cont">
+    <view class="ar_cont_h1">回归推荐</view>
+    <text>回归大礼包为回归玩家量身定制,让您在最短的时间内拥有最好的游戏体验
+    </text>
+    <view class="ar_cont_h2">
+    【礼包内容】
+    </view>
+
+    <view class="ar_sevice_item" style="border-top:1px solid #ddd;">
+        <text class="ar_cont_subject">风火林山包武将</text>
+        <text class="ar_cont_price">¥188</text>
+        <view class="section_book" bindtap="bookTap" data-aid="{{item.id}}">
+            <text>查看</text>
+        </view>
+    </view>
+
+    <view class="ar_sevice_item">
+        <text class="ar_cont_subject">手气卡99张</text>
+        <text class="ar_cont_price">¥188</text>
+        <view class="section_book" bindtap="bookTap" data-aid="{{item.id}}">
+            <text>查看</text>
+        </view>
+    </view>
+
+    <view class="ar_sevice_item">
+        <text class="ar_cont_subject">VIP三个月</text>
+        <text class="ar_cont_price">¥188</text>
+        <view class="section_book" bindtap="bookTap" data-aid="{{item.id}}">
+            <text>查看</text>
+        </view>
+    </view>
+</view>
+
+</view>
