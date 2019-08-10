@@ -5,6 +5,7 @@
 <view class="container">
 <scroll-view  scroll-y="true"  class="page-body" bindscrolltolower="loadMore">
   <!--banner-->
+  <view class="container"><text></text></view>
   <view class="swiper">
       <swiper indicator-dots="{{indicatorDots}}" vertical="{{vertical}}"
               autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">

@@ -237,8 +237,6 @@ function userData(){
  * */ 
 function provinceData(){
     var arr = [
-        // {pid:1,pzip:'110000',pname:'北京市'},
-        // {pid:2,pzip:'120000',pname:'天津市'}
         '请选择大区','新三国杀'
     ]
     return arr
@@ -248,8 +246,6 @@ function provinceData(){
  * */ 
 function cityData(){
     var arr = [
-        // {cid:1,czip:'110100',cname:'市辖区',pzip:'110000'},
-        // {cid:2,czip:'120100',cname:'市辖区',pzip:'120000'}
         '请选择区服','1-5区','6-9区','十周年大区'
     ]
     return arr
