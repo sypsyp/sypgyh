@@ -1,0 +1,35 @@
+<view class="container">
+<view class="ar_coverpath">
+    <image src="../../images/skilledt_img_01.jpg" mode="aspectFill"></image>
+</view>
+<view class="ar_cont">
+    <view class="ar_cont_h1">糖醋排骨</view>
+    <text>今天这道糖醋排骨就是没有炒糖色、没有过油， 非常省事又不费油。 只需用少许油翻炒排骨，而在排骨炒干炒香的时候加入冰糖一同翻炒， 再加入少许酱油上色，这样颜色和味道都特别正点。醋的比例按口味随意，一般是白糖：醋是2:1，因为先已经加入冰糖了。
+    </text>
+    <view class="ar_cont_h2">
+    【步骤流程】
+    </view>
+
+    <view class="ar_sevice_item" style="border-top:1px solid #ddd;">
+        <text class="ar_cont_subject">将排骨的水分煸炒干， 表面微微发焦后加入冰糖和大料进去翻炒</text>
+        <view class="section_book" bindtap="bookTap" data-aid="{{item.id}}">
+            <text>计时</text>
+        </view>
+    </view>
+
+    <view class="ar_sevice_item">
+        <text class="ar_cont_subject">将煮好的排骨倒入锅中，大火收汁，先加入的盐</text>
+        <view class="section_book" bindtap="bookTap" data-aid="{{item.id}}">
+            <text>计时</text>
+        </view>
+    </view>
+
+    <view class="ar_sevice_item">
+        <text class="ar_cont_subject">再倒入适量的醋，收汁即可盛入碗中</text>
+        <view class="section_book" bindtap="bookTap" data-aid="{{item.id}}">
+            <text>计时</text>
+        </view>
+    </view>
+</view>
+
+</view>

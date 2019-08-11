@@ -1,0 +1,24 @@
+<view class="container">
+<view class="ar_coverpath">
+    <image src="../../images/banner_02.jpg" mode="aspectFill"></image>
+</view>
+<view class="ar_cont">
+    <text class="ar_cont_h1">可乐鸡翅</text>
+    <text>   
+    可乐鸡翅色泽艳丽、鸡翅嫩滑、咸甜适中，而且它的制作也很简单，因此受到很多人的欢迎。
+    </text>
+    <view class="ar_line"></view>
+    <text class="ar_cont_h1">详情做法</text>
+    <text>
+    一、备好材料
+    二、鸡翅加姜丝、柠檬汁和少量盐拌匀腌制片刻
+    三、锅加热，放入鸡翅，皮朝下先煎一面
+    四、然后翻面煎，直到煎至两面金黄
+    五、入蒜炒出味
+    六、倒入可乐，加入酱油小火烧15分钟左右
+    七、最后转大火收汁就好了
+    </text>
+    <button class="ar_book" bindtap="bookTap">立即计时</button>
+</view>
+
+</view>
